@@ -1,0 +1,85 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+#header {
+  width: 100%;
+  background: url(http://overmental.com/wp-content/uploads/2015/01/madmax-furyroad-gifs-1-26569.gif) no-repeat bottom center;
+  background-size: 100%;
+  height: 550px;
+}
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 150px;
+  letter-spacing: 5px;
+
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+/*  color: #EAC428;*/
+  color: beige;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 150px;
+  letter-spacing: 8px;
+  opacity: .3;
+  padding-top: 115px;
+}
+
+#furiosa {
+  width: 5%
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 40px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+#warriors {
+  width: 100%;
+  height: 700px;
+}
